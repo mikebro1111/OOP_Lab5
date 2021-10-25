@@ -21,15 +21,14 @@ public class Flower {
         this.flowerType = flowerType;
         this.color = color;
     }
-    public void setSepalLength(double sepalLength){
+
+    public void setSepalLength(double sepalLength) {
         this.sepalLength = sepalLength;
     }
 
 //    public void setPrice(double price){
 //        this.price = price;
 //    }
-
-
 
 
     // Add constructor with Flower Type

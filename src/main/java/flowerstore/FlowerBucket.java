@@ -9,9 +9,9 @@ public class FlowerBucket {
     // add flower pack
     // getPrice
 
-    public double getPrice(){
+    public double getPrice() {
         double price = 0;
-        for (int i = 0; i< flowerPacks.size(); i++){
+        for (int i = 0; i < flowerPacks.size(); i++) {
             price += flowerPacks.get(i).getPrice();
         }
         return price;
