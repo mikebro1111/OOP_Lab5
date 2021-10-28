@@ -10,7 +10,7 @@ import java.util.Arrays;
 @Setter
 @ToString
 
-public class Flower {
+public class Flower extends Item{
     private double price;
     private double sepalLength;
     private Color color;
@@ -24,6 +24,12 @@ public class Flower {
 
     public void setSepalLength(double sepalLength) {
         this.sepalLength = sepalLength;
+    }
+
+    @Override
+    public String getDescription() {
+        return flowerType.toString();
+        // realsise method
     }
 
 //    public void setPrice(double price){
