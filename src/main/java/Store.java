@@ -10,7 +10,7 @@ public class Store {
             return true;
         } else {
             return false;
-        }
+        } 
 
     }
 
